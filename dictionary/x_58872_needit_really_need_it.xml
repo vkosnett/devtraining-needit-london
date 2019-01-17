@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Really Need It" max_length="40" name="x_58872_needit_really_need_it" type="collection">
+        <element default="Hello" label="test" max_length="100" name="test" type="string"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+    </element>
+</database>
